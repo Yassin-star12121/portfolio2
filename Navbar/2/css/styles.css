@@ -1,0 +1,620 @@
+/*Stylesheet == CSS*/
+/*Create New website with css and html*/
+/*margin: 0*/
+/*Css conteiner*/
+/*Cascading Style Sheet*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behaivor: smooth;
+}
+
+/*body style section with css*/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: verdana;
+  font-size: 35px;
+  background-color: rgba(1, 1, 8, 0.9);
+  background-size: cover;
+  transition: 4s;
+  scrollbar-face-color: blue;
+  scrollbar-track-color: red;
+  overflow-x: hidden;
+}
+
+.fa-search {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 20%;
+  font-family: verdana;
+  font-weight: lighter;
+  background-color: #d6003d;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 4px white;
+  width: 80px;
+  transition: 2s;
+
+}
+
+.fa-search:hover {
+  color:#ad0066;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.fa-bars {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 30%;
+  background-color: orange;
+  background-image: linear-gradient(to left,  #ff5226,  #ff9900, #ffeb00);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #0dfff2;
+  font-weight: lighter;
+  text-align: center;
+  opacity: 0.9;
+  width: 80px;
+  transition: 2s;  
+}
+
+.fa-bars:hover {
+  color: #00b2d1;
+}
+
+.fa-code {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 40%;
+  background-color: lightblue;
+  background-image: linear-gradient(to top, #80e6ff, #7abdff, #4d4dff, #7373ab);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: lighter;
+  box-shadow: 2px 2px 4px #cf0d00;
+  width: 80px;
+  transition: 2s;
+}
+
+.fa-code:hover {
+  color: #a3003d;
+}
+
+.fa-laptop {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  background-color: #66ff99;
+  background-image: linear-gradinet(to left, #d4ffff, #b2ffb2, #4cff73);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 80px;
+  box-shadow: 2px 2px 4px #8c0026;
+  text-shadow: 1px 1px 2px #140075;
+  text-align: center;
+  transition: 2s;
+}
+
+.fa-laptop:hover {
+  color: #ff008c;
+}
+
+.fa-power-off {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 60%;
+  padding: 20px;
+  width: 80px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 4px #4c4cff;
+  background-color: #b20066;
+  background-image: linear-gradinet(to right, #ff5900, #ff002e);
+  font-weight: lighter;
+  transition: 2s;
+}
+
+.fa-power-off:hover {
+  color: #2eb8f0;
+}
+
+.fa-coffee {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 70%;
+  padding: 20px;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #ccff00;
+  text-align: center;
+  width: 80px;
+  background-image: linear-gradient(to left, #1fb8c2, #2ec7a3, #3dd685, #4ce666, #52eb5c);
+  font-weight: lighter;
+  transition: 2s;
+  
+}
+
+.fa-coffee:hover {
+  color: #b00054;
+}
+
+.fa-wifi {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 80%;
+  padding: 20px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: teal;
+  background-image: linear-gradient(to top, #8c0066, #d90066, #f20066);
+  box-shadow: 2px 2px 4px #3d66cc;
+  text-align: center;
+  transition: 2s;
+}
+
+.fa-wifi:hover {
+  color:  #ffff00;
+}
+
+@media(max-width: 767px) {
+  
+  .fa-search {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .fa-bars{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 37%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .fa-code {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 59%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .fa-laptop {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 81%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .power-off {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 103%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .fa-coffee {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 125%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .fa-wifi {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 147%;
+    left: 50%;
+    transition: none;
+  }
+  
+  .w5-animation {
+    display: none;
+  }
+  
+}
+
+.fa-search:hover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 20%;
+  transition: 2s;
+}
+
+.fa-bars:hover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 30%;
+  transition: 2s;
+}
+
+.fa-code:hover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 40%;
+  transition: 2s;
+}
+
+.fa-laptop:hover{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+  transition: 2s;
+}
+
+.fa-power-off:hover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 60%;
+  transition: 2s;
+}
+
+.fa-coffee:hover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 70%;
+  transition: 2s;
+}
+
+.fa-wifi:hover {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 80%;
+  transition: 2s;
+}
+
+@media(max-width: 600px) {
+  body {
+    background-image: transparent;
+    background-color: rgb(26, 18, 20);
+  }
+} 
+
+.w5-animation:hover {
+  transition: 3s;
+  transform: rotate(135deg);
+  cursor: pointer;
+}
+
+.w5-animation {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 47%;
+  top: 60%;       
+  background-image: linear-gradient(to left, #a6ffff, #4040ff);
+  transition: 3s;
+  animation: mymove 3s;
+  transform: rotate(45deg);
+  box-shadow: 3px 3px 15px rgba(213, 61, 201, 0.4);
+}
+
+@keyframes mymove{
+  0%{
+    opacity: 0;
+    transform: rotate(0deg);
+      
+  }
+  100%{
+    opacity: 1;
+    transform: rotate(223deg);
+  }
+  
+}
+
+.top-animation {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 10%;
+}
+
+.top-animation p {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family:  "Comic Sans MS", cursive, sans-serif;
+  animation: textmove 3s;
+  
+}
+
+.w6-triangle {
+  width: 0px;
+  height: 0px;
+  border: 90px solid  #00d9ff;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 110%;
+  left: 30%;
+  transform: rotate(40deg);
+  animation: Intelmove 3s;
+  transition: 1s;
+}
+
+
+.w9-triangle {
+  width: 0px;
+  height: 0px;
+  border: 90px solid #007dff;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 110%;
+  left: 62%;
+  transform: rotate(140deg);
+  background-image: linear-gradient(to left, #b20026, #ff5900);
+  animation: Intelmove 3s;
+  transition: 1s;
+}
+
+.w12-triangle {
+  width: 0px;
+  height: 0px;
+  border: 90px solid #007dff;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 160%;
+  left: 28%;
+  transform: rotate(80deg);
+  animation: Intelmove 3s;
+  transition: 1s;
+}
+
+.w15-triangle {
+  width: 0px;
+  height: 0px;
+  border: 90px solid #4cd9ff;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid transparent;
+    position: absolute;
+  transform: translate(-50%, -50%);
+  top: 153%;
+  left: 63%;
+  transform: rotate(220deg);
+  animation: Intelmove 3s;
+  transition: 1s;
+}
+
+.text-centered-fluid {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 51%;
+  top: 145%;
+  color: white;
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 33px;
+  letter-spacing: 7px;
+  text-shadow: 3px 3px 35px rgba(196, 0, 255, 0.7);
+  animation: Intelmove 3s;
+  transition: 1s;
+}
+
+@keyframes Intelmove {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@media(max-width: 767px) {
+  .w6-triangle {
+    display: none;
+  }
+  
+  .w9-triangle {
+    display: none;
+  }
+  
+  .w12-triangle {
+    display: none;
+  }
+  
+  .w15-triangle {
+    display: none;
+  }
+  
+  .text-centered-fluid {
+    display: none;
+  }
+}
+
+.text-centered-fluid:hover {
+  font-size: 40px;
+  transition: 1s;
+}
+
+@media(max-width: 767px) {
+  .text-centered-fluid {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 170%;
+    left: 50%;
+    display: flex;
+  }
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 15px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 47.5%;
+  top: 127%;
+  border-top: 15px solid #00c2ff;
+  border-bottom: 15px solid #00c2ff;
+  animation: 3s myRotate linear infinite;
+}
+
+@keyframes myRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+/*Flash animation... programm start with css*/
+
+.Flash {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #00b2ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 12%;
+  left: 8%;
+  animation: 2s myFlash linear infinite;
+}
+
+@keyframes myFlash {
+  0% {
+    opacity: 1;
+  }
+  
+  50% {
+    opacity: .1;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
+
+#text-indent {
+  color: #fff;
+  font-family: forte;
+  font-weight: 500;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 13%;
+  left: 89%;
+  z-index: 999;
+  font-size: 40px;
+}
+@media(max-width: 1350px) {
+
+.active {
+  margin-left: 775px;
+}
+
+.active2 {
+  margin-left: -775px;
+}
+
+.active3 {
+  margin-left: 390px;
+}
+
+.active4 {
+  margin-left: -260px;
+}
+
+.active5 {
+  margin-left: -125px;
+}
+
+.active6 {
+  margin-left: 390px;
+}
+
+.active7 {
+  margin-left: -390px;
+}
+  
+}
+
+.active {
+  margin-left: 1083px;
+}
+
+.active2 {
+  margin-left: -360px;
+}
+
+.active5 {
+  margin-left: -720px;
+}
+
+.active7 {
+  margin-left: -540px;
+}
+
+.active6 {
+  margin-left: 545px;
+}
+
+.active3 {
+  margin-left: 361px;
+}
+
+.active4 {
+  margin-left: -361px;
+}
+/*Flash Program the end...*/
+
+/*scrollbar development*/
+/*scrollbar building and code content*/
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ccff;
+  border-radius: 10px;
+}
